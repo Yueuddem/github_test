@@ -1,14 +1,21 @@
-# github_test
+# 심리상담 챗봇
 
-## 여기는 알파코 깃헙리포지토리 입니다
+심리상담 정신건강 상담 챗봇. AI chatbot for psychology consultation.
 
-###### 6번째 타이틀
+![](result.png)
 
-> 여기는 1레벨 들여쓰기
+## Pretrained Model
 
-> > 여기는 2레벨 들여쓰기
+SentenceBERT [jhgan/ko-sroberta-multitask](https://huggingface.co/jhgan/ko-sroberta-multitask)
 
-1. 리스트 첫번째
-2. 리스트 두번째
-5. 리스트 세번째
-4. 리스트 네번째
+## Dataset
+
+[웰니스 대화 스크립트 데이터셋](https://aihub.or.kr/opendata/keti-data/recognition-laguage/KETI-02-006)
+
+## Dependency
+
+- streamlit
+- streamlit-chat
+- pandas
+- sentence-transformers
+- scikit-learn
